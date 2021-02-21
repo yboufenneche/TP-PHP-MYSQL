@@ -1,0 +1,5 @@
+CREATE TABLE products (
+    ref VARCHAR(10) NOT NULL PRIMARY KEY,
+    label VARCHAR(50) NOT NULL,
+    price INT(11) DEFAULT 0
+);
